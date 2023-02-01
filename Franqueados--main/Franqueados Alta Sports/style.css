@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.navbar{
+  background-color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+
+}
+
+.navlogo-div{
+  width: 90px;
+}
+
+.navlogo{
+  width: 100px;
+  height: 50px;
+
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+button {
+  font-size : 12px;
+  height: 40px;
+  width: 200px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-franqueado {
+  background-color: #504ce4;
+  color: white;
+  border-radius: 30px;
+}
+
+.navtxt{
+  padding-top: 17px;
+}
+
+.blue-text{
+  color: #00a0e2;
+  font-family: 'Bowlby One';
+  position: absolute;
+}
+
+.carousel-caption{
+  
+  top: 82px;
+  right: 1000px;
+  left: 0px;
+  bottom: 620px;
+
+}
+
+.carousel-inner{
+  height: 650px;
+}
+
+.bg-azul{
+  width: 1583px;
+  height: 400px;
+}
+
+#slides{
+  height: 70%;
+}
+
+.background-image {
+  background-image: url('img/background azul.jpg');
+  
+  width: 100%;
+  height: 360px;
+
+}
+
+.info-text{
+  font-size: large;
+  text-align: center;
+  
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+
+}
+
+.background-image-2{
+  width: 100%;
+  height: 600px;
+}
+
+
+.img-bg{
+width: 100%;
+height: 650px;
+}
+
+.bottom-text{
+  top: 1400px;
+  right: 1000px;
+  left: 10%;
+  bottom: 620px;
+}
+
+.navbar-brand{
+  padding-right: 55%;
+  padding-left: 55%;
+  text-align: center;
+}
+
+.banner-card{
+  position: relative;
+}
+
+.banner-img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  width: auto;
+  height: auto;
+  
+}
+
+.owl-carousel {
+  position: absolute;  
+  top: 0%;
+  bottom: 30%;
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
+
+.owl-stage-outer{
+  position: absolute;
+  top: 0%;
+  bottom: 50%;
+}
+
+
+.owl-nav{
+  position: absolute;
+  top: 0%;
+  right: 0;
+  bottom: 100%;
+}
+
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card {
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(#333, #333);
+  transition: all .5s;
+}
+
+.card:hover {
+  background-image: linear-gradient(#2a5ebf, #2a6eff);
+}
+
+.card .img {
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-image: url('./assets/Evelynn.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: all .5s;
+  z-index: 2;
+  position: relative;
+  opacity: .8;
+}
+
+.card .img span {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 100;
+  font-style: italic;
+  transition: all .5s;
+}
+
+.card:hover .img {
+  width: 430px;
+  opacity: 1;
+}
+
+.card:hover .img span {
+  font-size: 28px;
+}
+
+.card .content {
+  padding: 0px 30px;
+  height: 0;
+  opacity: 0;
+  transition: all .5s;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform: translateY(30px);
+}
+
+.card:hover .content {
+  height: 260px;
+  padding: 20px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card .content p {
+  margin: 0;
+}
+
+.card .content .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card .content .desc {
+  font-size: 14px;
+  font-weight: 100;
+  opacity: .8;
+  margin-top: 8px;
+}
+
+.card .arrow {
+  padding: 15px;
+  transform: rotate(-180deg);
+  transition: all .5s;
+}
+
+.card:hover .arrow {
+  transform: rotate(0);
+}
+
+.card .arrow span {
+  font-size: 24px;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.owl-nav{
+  position: absolute;
+  display: inline-block;
+  top: 63%;
+  right: 3%;
+}
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
